@@ -1,0 +1,14 @@
+.conteiner {
+	max-width:1200px;
+	margin: 0 auto;
+}
+.conteiner:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
+.clear:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
